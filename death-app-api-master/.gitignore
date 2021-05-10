@@ -1,0 +1,22 @@
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+#IDE Stuff
+**/.idea
+
+#OS STUFF
+.DS_Store
+.tmp
+
+#SERVERLESS STUFF
+admin.env
+.env
+_meta
+.serverless
+
+**__pycache__
+.python-version
+.vscode/
+
+env/

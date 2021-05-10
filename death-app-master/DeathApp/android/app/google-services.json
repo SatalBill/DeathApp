@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "442309975077",
+    "firebase_url": "https://project-death-app.firebaseio.com",
+    "project_id": "project-death-app",
+    "storage_bucket": "project-death-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442309975077:android:3f999ef75bdf901ff9f3cc",
+        "android_client_info": {
+          "package_name": "com.projectdeathapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442309975077-fkv2aotsqljc51hurha6j03cg046nkbm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.projectdeathapp",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "442309975077-6rc47e7953p354aa9f9t1gar6a4v215t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGF9-GhiJ8zkbSGP8ODyqEUpr79ZtFayc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442309975077-6rc47e7953p354aa9f9t1gar6a4v215t.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "442309975077-jcfp0nrojnf7sqq5t838d7p06t3a8mss.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.projectdeathapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

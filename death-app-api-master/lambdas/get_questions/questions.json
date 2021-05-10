@@ -1,0 +1,167 @@
+[
+    {
+        "id": "MMV047",
+        "isDefault": true,
+        "displayText": "Their First Name",
+        "type": "STRING",
+        "category":"ONBOARDING"
+    },
+    {
+        "id": "FNK131",
+        "isDefault": true,
+        "displayText": "Their date of death",
+        "type": "DATE",
+        "category": "ONBOARDING"
+    },
+    {
+        "id": "BZM539",
+        "isDefault": true,
+        "displayText": "Their relationship to you",
+        "type": "SINGLE_SELECT",
+        "category": "ONBOARDING",
+        "options": [
+            {"id":1,"name":"My spouse"},
+            {"id":2,"name":"My parent"},
+            {"id":3,"name":"My child"},
+            {"id":4,"name":"Other family member"},
+            {"id":5,"name":"Friend"},
+            {"id":6,"name":"Peer"},
+            {"id":7,"name":"Other"}
+        ]
+    },
+    {
+        "id": "FGW753",
+        "isDefault": true,
+        "displayText": "Here's how we can help.",
+        "subText": "We recommend selecting every category so you don't miss anything crucial. You can change these selections at any time.",
+        "type": "MULTI_SELECT",
+        "category": "ONBOARDING",
+        "options": [
+            {"id":1,"name":"First Steps"},
+            {"id":2,"name":"Funeral & Ceremonies"},
+            {"id":3,"name":"Grief & Self-Care"},
+            {"id":4,"name":"Accounts & Essential Admin"},
+            {"id":5,"name":"Legal Affairs & Finances"}
+        ]
+    },
+    {
+        "id": "FPU145",
+        "isDefault": true,
+        "displayText": "Were they a veteran?",
+        "type": "BOOLEAN",
+        "category": "ONBOARDING"
+    },
+    {
+        "id": "KZQ877",
+        "isDefault": true,
+        "displayText": "Were they currently employed?",
+        "type": "BOOLEAN",
+        "category": "ONBOARDING",
+        "triggerTasks": [
+            { "templateId": "YQZ921", "triggerValue": true }
+        ]
+    },
+    {
+        "id": "RFQ111",
+        "isDefault": true,
+        "displayText": "What year were they born?",
+        "type": "NUMBER",
+        "category": "ONBOARDING"
+    },
+    {
+        "id": "KZU159",
+        "isDefault": true,
+        "displayText": "What was their zip code?",
+        "type": "STRING",
+        "category": "ONBOARDING"
+    },
+    {
+        "id": "MDJ491",
+        "isDefault": true,
+        "displayText": "Where did they die?",
+        "type": "SINGLE_SELECT",
+        "category": "ONBOARDING",
+        "options": [
+            {"id":1,"name":"At home"},
+            {"id":2,"name":"In a hospital, hospice, or a long term care facility"},
+            {"id":3,"name":"Somewhere else"}
+        ],
+        "triggerTasks":[
+            { "templateId": "NEJ189","triggerValue": 2 },
+            { "templateId": "KCW344", "triggerValue": 1 },
+            { "templateId": "KCW344", "triggerValue": 3 }
+        ]
+    },
+    {
+        "id": "YIK789",
+        "isDefault": true,
+        "displayText": "Did they live in a rental property?",
+        "type": "BOOLEAN",
+        "category": "ONBOARDING",
+        "triggerTasks": [
+            { "templateId": "MIN667", "triggerValue": true }
+        ]
+    },
+    {
+        "id": "DTZ076",
+        "isDefault": true,
+        "displayText": "Were they an organ donor?",
+        "type": "SINGLE_SELECT",
+        "options": [
+            {"id":1,"name":"Yes"},
+            {"id":2,"name":"No"},
+            {"id":3,"name":"I'm not sure"}
+        ],
+        "triggerTasks":[
+            { "templateId": 3,"triggerValue": 1 },
+            { "templateId": 3, "triggerValue": 3 }
+        ]
+    },
+    {
+        "id": "REM682",
+        "isDefault": true,
+        "displayText": "Did they have any dependents — or anyone whose care they were responsible for?",
+        "type": "BOOLEAN",
+        "category": "FIRST_STEPS",
+        "triggerEntities": [
+            { "templateId": "KLM364", "triggerValue": true }
+        ]
+    },
+    {
+        "id": "REM682_1",
+        "isDefault": false,
+        "displayText": "First name",
+        "type": "STRING",
+        "category": "FIRST_STEPS"
+    },
+    {
+        "id": "REM682_2",
+        "isDefault": false,
+        "displayText": "Their relationship to the deceased",
+        "type": "SINGLE_SELECT",
+        "category": "FIRST_STEPS",
+        "options": [
+            {"id":1,"name":"Parent"},
+            {"id":2,"name":"Child under 18"},
+            {"id":3,"name":"Spouse or partner"},
+            {"id":4,"name":"Other"}
+        ]
+    },
+    {
+        "id": "PHZ905",
+        "isDefault": false,
+        "displayText": "Did they have pets?",
+        "type": "BOOLEAN",
+        "category": "FIRST_STEPS",
+        "triggerEntities": [
+            { "templateId": "LZZ622", "triggerValue": true }
+        ]
+    },
+    {
+        "id": "PHZ905_1",
+        "isDefault": false,
+        "displayText": "Name",
+        "type": "STRING",
+        "category": "FIRST_STEPS"
+    }
+]

@@ -1,0 +1,201 @@
+[
+    {
+        "id": "NEJ189",
+        "isDefault": false,
+        "displayText": "Get a legal pronouncement of death.",
+        "extraInfo": "In order to start the death certification process, a medical professional or coroner must legally pronounce the time and date of death. If the death happened in a hospital, nursing home, or hospice, the staff will lead you through the next steps. After the death has been legally pronounced, you will be able to receive copies of the death certificate, an essential piece of paperwork that you will need in the weeks and months ahead.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 1, 
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "KCW344",
+        "isDefault": false,
+        "displayText": "Get a legal pronouncement of death.",
+        "extraInfo": "If the death occured at home and was sudden or unexpected, call 911 immediately. If the death was expected, you do not need to move the body, call 911, or contact anyone right away. For many people, this is a time to sit with their person and say goodbye — or to invite others to do the same. Many families use this time to wash and dress the body or perform religious rites and personal rituals. When you’re ready, call the doctor who was in charge of your person’s medical care. If they didn’t have one — or you’re not sure who it was — contact a nearby medical practice or local funeral home to guide you through the next steps. The doctor may ask if you want an autopsy, but for most expected deaths these are not necessary or required. After the death has been legally pronounced, you will be able to receive copies of the death certificate, an essential piece of paperwork that you will need in the weeks and months ahead.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 1, 
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "OZK942",
+        "isDefault": false,
+        "displayText": "Arrange for organ donation.",
+        "extraInfo": "If the death took place in a hospital, nursing home, or hospice, confirm your person’s status as an organ donor with the staff. They will lead you through the next steps. Be aware that in most states, wishes for organ donation are legally binding, which means survivors cannot override them. If the death occured at home, confirm your person’s status as an organ donor with the medical professional who legally pronounced the death.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 1,
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "VNL936",
+        "isDefault": true,
+        "displayText": "Locate and secure personal items.",
+        "extraInfo": "Find all personal effects — like jewelry, watches, credit cards, wallet, and other forms of I.D. — and put them in a safe location to sort through later. Keep in mind that you will need your person’s social security number and an I.D. to proceed with certain paperwork.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 2,
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "WWX731",
+        "isDefault": true,
+        "displayText": "Arrange for transportation of the body.",
+        "extraInfo": "Unless you are planning on having an at-home funeral, the body will need to be moved to a funeral home or crematory. If you need more time to decide which funeral home or crematory to use, you can arrange for the body to be taken to a morgue. Hospital, hospice, and long-term care staff will help you through this process.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": null,
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "TPC877",
+        "isDefault": true,
+        "displayText": "Share the news with close family and friends.",
+        "extraInfo": "In all likelihood, sharing the news of your person’s death will be hard — not just for you, but also for the person receiving the news. You don’t need to have next steps ironed out or a lot of details to share; this step is just about broadening the web of support. During these calls, designate a few people to spread the word to your larger network so you don’t have to share the news over and over again.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "FBL207",
+        "isDefault": true,
+        "displayText": "Obtain death certificates.",
+        "extraInfo": "An official death certificate is a critical legal document that has been signed by the county coroner. You will need multiple, original death certificates — not photocopies — in order to move forward with everything from obtaining a burial permit to receiving benefits. Depending on the size and complexity of the estate — how many assets, etc. your person had — you may need anywhere from 10 to 36 copies. Err on the side of getting too many. Keep in mind that all fees — death certificates can cost anywhere from $5 to $25 — will be reimbursed by the estate. If you are working with a funeral home, mortuary, or crematory, you can request death certificates through them before the funeral. They will handle all the details and necessary paperwork. Alternately, you can order them from the county, but this is a more laborious and time-consuming process.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "SZV232",
+        "isDefault": false,
+        "displayText": "Arrange care for dependent.",
+        "extraInfo": "Ask a trusted friend or family member to help with temporary care while you look into long-term solutions.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 1,
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "PVX544",
+        "isDefault": false,
+        "displayText": "Arrange pet care.",
+        "extraInfo": "Make sure pets have appropriate and trustworthy caretakers until there's a permanent plan in place.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 1,
+        "level": 1,
+        "subTasks": []
+    },
+    {
+        "id": "YQZ921",
+        "isDefault": false,
+        "displayText": "Let their employer know.",
+        "extraInfo": "Notify their place of work — or, better yet, ask a close colleague to share the news with the appropriate person. If any belongings need to be collected, ask the same colleague or a friend to pick them up for you.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 1,
+        "subTasks": ["YQZ921_1", "YQZ921_2", "YQZ921_3"]
+    },
+    {
+        "id": "YQZ921_1",
+        "isDefault": false,
+        "displayText": "Ask for information about benefits and any paychecks that may be due.",
+        "extraInfo": "",
+        "category": "FIRST_STEPS",
+        "priority": "MEDIUM",
+        "timeToComplete": 3,
+        "level": 2,
+        "subTasks": []
+    },
+    {
+        "id": "YQZ921_2",
+        "isDefault": false,
+        "displayText": "Ask if there is a company-wide life insurance policy.",
+        "extraInfo": "",
+        "category": "FIRST_STEPS",
+        "priority": "MEDIUM",
+        "timeToComplete": 3,
+        "level": 2,
+        "subTasks": []
+    },
+    {
+        "id": "YQZ921_3",
+        "isDefault": false,
+        "displayText": "Ask if there are any other corporate-paid benefits for depdndents or surviving spouse.",
+        "extraInfo": "",
+        "category": "FIRST_STEPS",
+        "priority": "MEDIUM",
+        "timeToComplete": 3,
+        "level": 2,
+        "subTasks": []
+    },
+    {
+        "id": "MIN667",
+        "isDefault": false,
+        "displayText": "Notify their landlord and secure their rental property.",
+        "extraInfo": "You will likely need more time to decide on next steps for your person’s home and belongings, but it’s important to contact the landlord and inform them of the death before too much time passes. In some cases, you may need to provide a written notice of death. Keep in mind that in most cases the estate — not you — will be responsible for any rental charges incurred until the lease agreement is terminated.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 1,
+        "subTasks": ["MIN667_1", "MIN667_2", "MIN667_3", "MIN667_4", "MIN667_5"]
+    },
+    {
+        "id": "MIN667_1",
+        "isDefault": false,
+        "displayText": "Make sure all doors and windows are locked.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 2
+    },
+    {
+        "id": "MIN667_2",
+        "isDefault": false,
+        "displayText": "Ensure all valuables are securely stored.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 2
+    },
+    {
+        "id": "MIN667_3",
+        "isDefault": false,
+        "displayText": "Take out any remaining trash.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 2
+    },
+    {
+        "id": "MIN667_4",
+        "isDefault": false,
+        "displayText": "Water the plants and care for the yard.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 2
+    },
+    {
+        "id": "MIN667_5",
+        "isDefault": false,
+        "displayText": "Use or dispose of any perishable food items.",
+        "category": "FIRST_STEPS",
+        "priority": "HIGH",
+        "timeToComplete": 3,
+        "level": 2
+    }
+]

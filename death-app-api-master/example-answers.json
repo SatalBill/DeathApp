@@ -1,0 +1,32 @@
+{
+    "resource": "/answers/user/{userId}", 
+    "path": "/answers/user/9KWwiEfViQYuoK55Gn7uqgC8rLr1", 
+    "httpMethod": "POST", 
+    "headers": {
+        "Accept": "*/*", 
+        "CloudFront-Forwarded-Proto": "https", 
+        "CloudFront-Is-Desktop-Viewer": "true", 
+        "CloudFront-Is-Mobile-Viewer": "false", 
+        "CloudFront-Is-SmartTV-Viewer": "false", 
+        "CloudFront-Is-Tablet-Viewer": "false", 
+        "CloudFront-Viewer-Country": "US", 
+        "content-type": "application/json", 
+        "Host": "1z8gtsldma.execute-api.us-east-1.amazonaws.com", 
+        "User-Agent": "curl/7.64.1", 
+        "Via": "2.0 41d17421c3cbd1f0e8a454b1a3df7a65.cloudfront.net (CloudFront)", 
+        "X-Amz-Cf-Id": "_IKrNev5pJcglhiXgX98aCITUkWLFrOXmcyguVlV1eX5D-cW-8wHlQ==", 
+        "X-Amzn-Trace-Id": "Root=1-60734530-3a74edf42eca1e2451322bfb", 
+        "X-Forwarded-For": "73.86.168.80, 130.176.134.135", 
+        "X-Forwarded-Port": "443", 
+        "X-Forwarded-Proto": "https"
+    }, 
+    "multiValueHeaders": {"Accept": ["*/*"], "CloudFront-Forwarded-Proto": ["https"], "CloudFront-Is-Desktop-Viewer": ["true"], "CloudFront-Is-Mobile-Viewer": ["false"], "CloudFront-Is-SmartTV-Viewer": ["false"], "CloudFront-Is-Tablet-Viewer": ["false"], "CloudFront-Viewer-Country": ["US"], "content-type": ["application/json"], "Host": ["1z8gtsldma.execute-api.us-east-1.amazonaws.com"], "User-Agent": ["curl/7.64.1"], "Via": ["2.0 41d17421c3cbd1f0e8a454b1a3df7a65.cloudfront.net (CloudFront)"], "X-Amz-Cf-Id": ["_IKrNev5pJcglhiXgX98aCITUkWLFrOXmcyguVlV1eX5D-cW-8wHlQ=="], "X-Amzn-Trace-Id": ["Root=1-60734530-3a74edf42eca1e2451322bfb"], "X-Forwarded-For": ["73.86.168.80, 130.176.134.135"], "X-Forwarded-Port": ["443"], "X-Forwarded-Proto": ["https"]}, 
+    "queryStringParameters": null, 
+    "multiValueQueryStringParameters": null, 
+    "pathParameters": {"userId": "9KWwiEfViQYuoK55Gn7uqgC8rLr1"}, 
+    "stageVariables": null, 
+    "requestContext": {"resourceId": "ss4huf", "resourcePath": "/answers/user/{userId}", "httpMethod": "POST", "extendedRequestId": "doe_nFKtoAMFU7A=", "requestTime": "11/Apr/2021:18:51:28 +0000", "path": "/dev/answers/user/9KWwiEfViQYuoK55Gn7uqgC8rLr1", "accountId": "334082952284", "protocol": "HTTP/1.1", "stage": "dev", "domainPrefix": "1z8gtsldma", "requestTimeEpoch": 1618167088626, "requestId": "70446561-615a-4824-ac65-f856ce84c3ac", "identity": {"cognitoIdentityPoolId": null, "accountId": null, "cognitoIdentityId": null, "caller": null, "sourceIp": "73.86.168.80", "principalOrgId": null, "accessKey": null, "cognitoAuthenticationType": null, "cognitoAuthenticationProvider": null, "userArn": null, "userAgent": "curl/7.64.1", "user": null}, 
+    "domainName": "1z8gtsldma.execute-api.us-east-1.amazonaws.com", "apiId": "1z8gtsldma"}, 
+    "body": "{\"answers\": [{\"uuid\": \"9ec2b02f-9b27-4a4b-81a1-3b7342374d7\", \"userId\": \"9KWwiEfViQYuoK55Gn7uqgC8rLr1\", \"questionId\": 3, \"value\": \"[4,5,6]\"}, {\"uuid\": \"2ec2b02f-9b27-4a4b-81a1-3b7342374d8\", \"userId\": \"9KWwiEfViQYuoK55Gn7uqgC8rLr1\", \"questionId\": 2, \"value\": 1}, {\"uuid\": \"8ec2b02f-9b27-4a4b-81a1-3b7342374d8\", \"userId\": \"9KWwiEfViQYuoK55Gn7uqgC8rLr1\", \"questionId\": 1, \"value\": \"test answer\"}]}", 
+    "isBase64Encoded": false
+}

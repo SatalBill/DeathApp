@@ -1,0 +1,111 @@
+# Welcome to Serverless!
+#
+# This file is the main config file for your service.
+# It's very minimal at this point and uses default values.
+# You can always add more config options for more control.
+# We've included some commented out config examples here.
+# Just uncomment any of them to get that config option.
+#
+# For full config options, check the docs:
+#    docs.serverless.com
+#
+# Happy Coding!
+
+service: granate-api
+# app and org for use with dashboard.serverless.com
+app: granate-app
+org: granate
+
+# You can pin your service to only deploy with a specific Serverless version
+# Check out our docs for more details
+frameworkVersion: '2'
+
+provider:
+  name: aws
+  runtime: python3.8
+  lambdaHashingVersion: 20201221
+  vpc:
+    securityGroupIds:
+      - sg-81c4ac80
+    subnetIds:
+      - subnet-7eac104f
+      - subnet-216a526c
+      - subnet-795f2858
+      - subnet-a680a3a8
+      - subnet-a53441fa
+      - subnet-35f29b53
+
+  
+package:
+  exclude:
+    - node_modules/**
+    - "**/__pycache__/**"
+    - "**/env/**"
+
+plugins:
+  - serverless-python-requirements
+
+
+functions:
+  get-questions:
+    handler: lambdas/get_questions/main.handler
+    events:
+    - http:
+        path: questions
+        method: get
+  
+  get-task-templates:
+    handler: lambdas/get_task_templates/main.handler
+    events:
+    - http:
+        path: task-templates
+        method: get
+
+  get-entity-templates:
+    handler: lambdas/get_entity_templates/main.handler 
+    events:
+    - http:
+        path: entity-templates
+        method: get
+
+  update-answers:
+    handler: lambdas/update_answers/main.handler 
+    events:
+    - http:
+        path: answers/user/{userId}
+        method: post
+
+  update-tasks:
+    handler: lambdas/update_tasks/main.handler 
+    events:
+    - http:
+        path: tasks/user/{userId}
+        method: post
+
+  update-entity-answers:
+    handler: lambdas/update_entity_answers/main.handler 
+    events:
+    - http:
+        path: entity-answers/user/{userId}
+        method: post
+
+  get-answers:
+    handler: lambdas/get_answers/main.handler 
+    events:
+    - http:
+        path: answers/user/{userId}
+        method: get
+
+  get-entity-answers:
+    handler: lambdas/get_entity_answers/main.handler 
+    events:
+    - http:
+        path: entity-answers/user/{userId}
+        method: get 
+
+  get-tasks:
+    handler: lambdas/get_tasks/main.handler 
+    events:
+    - http:
+        path: tasks/user/{userId}
+        method: get

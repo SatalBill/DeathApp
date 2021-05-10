@@ -1,0 +1,20 @@
+[
+    {
+        "id": "KLM364",
+        "name": "Dependent",
+        "questions": ["REM682_1", "REM682_2"],
+        "triggerTasks": [
+            { "templateId": "SZV232" }
+        ],
+        "extraInfo": ""
+    },
+    {
+        "id": "LZZ622",
+        "name": "Pet",
+        "questions": ["PHZ905_1"],
+        "triggerTasks": [
+            { "templateId": "PVX544" }
+        ],
+        "extraInfo": ""
+    }
+]
